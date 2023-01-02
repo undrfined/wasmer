@@ -161,7 +161,7 @@ Looking for changes that affect our C API? See the [C API Changelog](lib/c-api/C
 - [#2116](https://github.com/wasmerio/wasmer/pull/2116) Add a package for Windows that is not an installer, but all the `lib` and `include` files as for macOS and Linux.
 - [#2123](https://github.com/wasmerio/wasmer/pull/2123) Use `ENABLE_{{compiler_name}}=(0|1)` to resp. force to disable or enable a compiler when running the `Makefile`, e.g. `ENABLE_LLVM=1 make build-wasmer`.
 - [#2123](https://github.com/wasmerio/wasmer/pull/2123) `libwasmer` comes with all available compilers per target instead of Cranelift only.
-- [#2135](https://github.com/wasmerio/wasmer/pull/2135) [Documentation](./PACKAGING.md) for Linux distribution maintainers
+- [#2135](https://github.com/wasmerio/wasmer/pull/2135) [Documentation](PACKAGING.md) for Linux distribution maintainers
 - [#2104](https://github.com/wasmerio/wasmer/pull/2104) Update WAsm core spectests and wasmparser.
 
 ### Changed
