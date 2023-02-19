@@ -26,7 +26,9 @@
         clippy::use_self
     )
 )]
+#![allow(deprecated_cfg_attr_crate_type_name)]
 #![cfg_attr(feature = "js", crate_type = "cdylib")]
+#![allow(deprecated_cfg_attr_crate_type_name)]
 #![cfg_attr(feature = "js", crate_type = "rlib")]
 
 //! [`Wasmer`](https://wasmer.io/) is the most popular
